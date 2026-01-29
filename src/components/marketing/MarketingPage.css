@@ -93,22 +93,23 @@
 
 /* Hero Section */
 .hero {
+  min-height: 100vh;
   padding: 10rem 0 6rem;
   position: relative;
   overflow: hidden;
-height: 100vh;
-  /* Background image */
+
   background-image:
     linear-gradient(
       rgba(15, 30, 45, 0.65),
       rgba(15, 30, 45, 0.65)
     ),
     url("/images/bg.jpg");
-background-attachment: fixed;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
 .hero::before {
   content: '';
@@ -190,10 +191,10 @@ background-attachment: fixed;
 
 /* Features Section */
 .features {
-   padding: 10rem 0 6rem;
+   min-height: 100vh;
+  padding: 10rem 0 6rem;
   position: relative;
   overflow: hidden;
-height: 100vh;
   /* Background image */ 
   background-image:
     linear-gradient(

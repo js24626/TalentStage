@@ -239,7 +239,7 @@ const AssistantWidget = () => {
     // General help
     if (lowerMessage.includes('help') || lowerMessage.includes('what can you do')) {
       return {
-        response: `I can help you with these tasks:\n\n1. **Shortlist candidates** - I'll analyze scores and move top candidates to shortlisted stage\n2. **Generate evaluation rubrics** - I'll create criteria based on the job role\n3. **Schedule interviews** - I'll add interview events to candidate timelines\n\nJust tell me what you'd like to do!`
+        response: `I can help you with these tasks:\n\n1. Shortlist candidates - I'll analyze scores and move top candidates to shortlisted stage\n2. Generate evaluation rubrics - I'll create criteria based on the job role\n3. Schedule interviews- I'll add interview events to candidate timelines\n\nJust tell me what you'd like to do!`
       };
     }
     
