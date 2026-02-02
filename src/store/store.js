@@ -52,42 +52,7 @@ const initialCandidates = [
       { id: 1, event: 'Application submitted', date: '2026-01-20T10:30:00Z', type: 'applied' }
     ]
   },
-  {
-    id: 2,
-    jobId: 1,
-    name: 'Sarah Chen',
-    email: 'sarah.chen@email.com',
-    phone: '+1-555-0456',
-    stage: 'shortlisted',
-    score: 92,
-    skills: ['React', 'Vue', 'TypeScript', 'AWS'],
-    experience: '7 years',
-    location: 'San Francisco, CA',
-    appliedDate: '2026-01-18',
-    resumeUrl: '#',
-    evaluation: {
-      technical: 95,
-      communication: 90,
-      problemSolving: 91
-    },
-    videoScreening: {
-      status: 'completed',
-      submittedDate: '2026-01-19T14:20:00Z',
-      transcript: 'Hello, I am Sarah Chen. I have been working as a frontend developer for 7 years...',
-      scores: {
-        communication: 90,
-        clarity: 88,
-        confidence: 92
-      },
-      recommendation: 'Strong Pass',
-      videoUrl: '#'
-    },
-    timeline: [
-      { id: 1, event: 'Application submitted', date: '2026-01-18T09:15:00Z', type: 'applied' },
-      { id: 2, event: 'Video screening completed', date: '2026-01-19T14:20:00Z', type: 'screening' },
-      { id: 3, event: 'Moved to shortlisted', date: '2026-01-21T11:00:00Z', type: 'stage_change' }
-    ]
-  },
+ 
   {
     id: 3,
     jobId: 1,

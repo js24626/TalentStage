@@ -26,6 +26,10 @@
   z-index: 100;
 }
 
+.title{
+  font-size: large;
+}
+
 .dashboard-header .header-content {
   display: flex;
   justify-content: space-between;
@@ -46,6 +50,7 @@
   color: white !important;
   text-decoration: none;
   font-weight: 500;
+  font-size: medium;
   padding: 0.5rem 0;
   border-bottom: 2px solid transparent;
   transition: all 0.2s;

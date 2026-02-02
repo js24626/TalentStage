@@ -22,7 +22,7 @@ const RecruiterDashboard = () => {
           <div className="header-content">
             <div className="logo" onClick={() => navigate('/')}>
               <Sparkles size={28} />
-              <span>TalentSage</span>
+              <span className='title'>TalentSage</span>
             </div>
             <nav className="dashboard-nav">
               <a href="/dashboard" className="active">Dashboard</a>
